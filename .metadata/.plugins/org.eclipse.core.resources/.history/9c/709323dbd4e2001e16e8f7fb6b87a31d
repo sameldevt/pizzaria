@@ -1,0 +1,11 @@
+package br.com.magna.pizzaria.program;
+
+import br.com.magna.pizzaria.model.entities.Manager;
+
+public class Main {
+	public static void main(String[] args){	
+		Manager.start();
+		
+		Client c = new Client();
+	}
+}

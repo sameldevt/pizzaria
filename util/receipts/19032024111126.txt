@@ -1,0 +1,20 @@
+
+			     PIZZARIA GENESIS
+		    R Prudente de Morais, 468 - Casa Grande
+			CEP: 09960-500 - DIADEMA-SP
+------------------------------------------------------------------------------
+19/03/2024 11:11:26						 COD:123456789
+				CUPOM FISCAL
+QTD UN. VL UNIT(R$)
+ST								   VL TOTAL(R$)
+------------------------------------------------------------------------------
+[GRANDE_DOIS_SABORES][VALOR FINAL: R$39,00]
+[1]Sabor: Caprese
+Ingredientes: Queijo mussarela, tomate fatiado, muçarela de búfala, manjericão e azeite de oliva.
+Preço: R$39,00
+[2]Sabor: Calabresa com Catupiry
+Ingredientes: Queijo mussarela, calabresa fatiada, catupiry e cebola.
+Preço: R$36,00
+
+[1] ITEM(S)							      R$39,00
+------------------------------------------------------------------------------

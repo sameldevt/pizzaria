@@ -1,0 +1,36 @@
+package br.com.magna.pizzaria.model.entities;
+
+import java.time.LocalDate;
+
+public class Client {
+	
+	private char genero;
+	private String name;
+	private String address;
+	private LocalDate birthDate;
+	
+	private Order order;
+	
+	public Client(String name, String address, LocalDate birthDate, Order order) {
+		this.name = name;
+		this.address = address;
+		this.birthDate = birthDate;
+		this.order = order;
+	}
+
+	public Order getOrder() {
+		return order;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+	
+	public LocalDate getBirthDate() {
+		return birthDate;
+	}
+}

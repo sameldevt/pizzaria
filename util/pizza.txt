@@ -1,0 +1,15 @@
+Margherita;Queijo mussarela, tomate fresco e manjericão.;30.00
+Pepperoni;Queijo mussarela e pepperoni fatiado.;35.00
+Quatro Queijos;Queijo mussarela, gorgonzola, parmesão e provolone.;38.00
+Frango com Catupiry;Frango desfiado, catupiry e milho verde.;32.00
+Calabresa;Queijo mussarela, calabresa fatiada e cebola.;33.00
+Vegetariana;Queijo mussarela, tomate, pimentão, cebola, azeitonas e champignon.;36.00
+Bacon;Queijo mussarela, bacon em fatias e cebola.;40.00
+Portuguesa;Queijo mussarela, presunto, ovos, cebola, ervilha, azeitona e pimentão.;37.00
+Atum;Queijo mussarela, atum e cebola.;34.00
+Rúcula com Tomate Seco;Queijo mussarela, rúcula, tomate seco e parmesão.;42.00
+Margherita Especial;Queijo mussarela de búfala, tomate cereja, manjericão e azeite de oliva.;45.00
+Caprese;Queijo mussarela, tomate fatiado, muçarela de búfala, manjericão e azeite de oliva.;39.00
+Quatro Estações;Queijo mussarela, presunto, champignon, palmito, azeitona e pimentão.;41.00
+Calabresa com Catupiry;Queijo mussarela, calabresa fatiada, catupiry e cebola.;36.00
+Camarão;Queijo mussarela, camarão, cebola e pimentão.;48.00

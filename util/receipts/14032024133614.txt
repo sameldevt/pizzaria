@@ -1,0 +1,20 @@
+
+			     PIZZARIA GENESIS
+		    R Prudente de Morais, 468 - Casa Grande
+			CEP: 09960-500 - DIADEMA-SP
+------------------------------------------------------------------------------
+14/03/2024 13:36:14						 COD:123456789
+				CUPOM FISCAL
+QTD UN. VL UNIT(R$)
+ST								   VL TOTAL(R$)
+------------------------------------------------------------------------------
+[GRANDE_DOIS_SABORES][VALOR FINAL: R$45,00]
+Sabor: Rúcula com Tomate Seco
+Ingredientes: Queijo mussarela, rúcula, tomate seco e parmesão.
+Preço: R$42,00
+Sabor: Margherita Especial
+Ingredientes: Queijo mussarela de búfala, tomate cereja, manjericão e azeite de oliva.
+Preço: R$45,00
+
+[1] ITEN(S)							      R$45,00
+------------------------------------------------------------------------------

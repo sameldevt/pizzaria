@@ -1,0 +1,76 @@
+package br.com.magna.pizzaria.model.entities;
+
+import java.util.List;
+
+import br.com.magna.pizzaria.model.enums.PizzaType;
+
+public class Item {
+
+	private PizzaType pizzaType;
+	private List<Flavor> flavors;
+	
+	public Item(PizzaType pizzaType, List<Flavor> flavors) {
+		this.pizzaType = pizzaType;
+		this.flavors = flavors;
+	}
+	
+	public void selectPizzaType(PizzaType pizzaType) {
+		this.pizzaType = pizzaType;
+	}
+	
+	public void selectFlavor(Flavor flavor) {
+		if(flavors.size() == 2) {
+			System.out.println("Você não pode adicionar mais sabores!");
+			return;
+		}
+		
+		flavors.add(flavor);
+	}
+	
+	public List<Flavor> getFlavors() {
+		return this.flavors;
+	}
+	
+	public PizzaType getPizzaType() {
+		return pizzaType;
+	}
+	
+	public double getItemPrice() {
+		return calculateItemPrice();
+	}
+	
+	private double calculateItemPrice() {
+		if(pizzaType == PizzaType.GRANDE_DOIS_SABORES) {
+			return flavors.stream().mapToDouble(Flavor::getPrice).max().orElse(0.0);
+		}
+		else if(pizzaType == PizzaType.BROTO_DOIS_SABORES) {
+			return (flavors.stream().mapToDouble(Flavor::getPrice).max().orElse(0.0)) / 2;
+		}
+		else if(pizzaType == PizzaType.GRANDE) {
+			return flavors.get(0).getPrice();
+		}
+		else if(pizzaType == PizzaType.BROTO) {
+			return flavors.get(0).getPrice() / 2;
+		}
+		
+		return 0.000000000000000000000000000000000;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+
+		sb.append("[" + pizzaType + "][VALOR FINAL: R$" + String.format("%.2f", calculateItemPrice()) + "]\n");
+		
+		if(flavors.size() > 1 && flavors.get(0).toString().equals(flavors.get(1).toString())) {
+			sb.append(flavors.getFirst() + "\n");
+			return sb.toString();
+		}	
+		
+		for(Flavor flavor : flavors) {
+			sb.append(flavor + "\n");
+		}
+		
+		return sb.toString();
+	}
+}

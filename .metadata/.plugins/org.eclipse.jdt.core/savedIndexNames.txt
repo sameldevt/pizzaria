@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\dev\workspace\pizzaria-ws\pizzaria_project\.metadata\.plugins\org.eclipse.jdt.core
+3120896109.index
+1865797976.index
+3581163120.index
+1423985399.index
